@@ -7,3 +7,11 @@ body {
     background-color: lightgreen;
   }
 }
+
+ul {
+  background-color: white;
+}
+
+ul > li {
+  background-color: DodgerBlue;
+}
