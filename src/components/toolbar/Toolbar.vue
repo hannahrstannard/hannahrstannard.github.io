@@ -6,6 +6,9 @@
           <font-awesome-icon icon="bars" />
         </md-button>
       </div>
+      <div class="md-toolbar-section-end">
+        <h3 class="md-title">Title</h3>
+      </div>
     </div>
   </md-toolbar>
 </template>
