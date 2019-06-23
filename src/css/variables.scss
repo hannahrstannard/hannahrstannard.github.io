@@ -5,12 +5,13 @@ $gray: md-get-palette-color(grey, 500);
 $dark-gray: md-get-palette-color(grey, 800);
 
 $xsmall: 599px; // Less than
-$xsmall-size: 10em;
 $small: 959px;
-$small-size: 15em;
 $medium: 1279px;
-$medium-size: 20em;
 $large: 1919px;
-$large-size: 25em;
 $xlarge: 1920px; // Greater than
+
+$xsmall-size: 10em;
+$small-size: 15em;
+$medium-size: 20em;
+$large-size: 25em;
 $xlarge-size: 30em;
