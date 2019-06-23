@@ -1,17 +1,9 @@
 <template>
-  <div>
-    <md-toolbar class="md-large md-theme--light-gray">
-      <h3 class="md-title">Default</h3>
-    </md-toolbar>
-    <div class="home__logo md-theme--dark-gray">
-      <font-awesome-icon icon="code" class="home__logo--full-size" />
-    </div>
-  </div>
+  <div />
 </template>
 
 <script>
 export default {
-  
 }
 </script>
 

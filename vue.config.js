@@ -6,5 +6,5 @@ module.exports = {
         data: `@import "./src/css/custom-theme.scss";`
       }
     }
-  }
+  },
 }

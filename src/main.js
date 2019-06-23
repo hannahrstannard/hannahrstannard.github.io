@@ -6,7 +6,7 @@ import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCode } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faBars } from '@fortawesome/free-solid-svg-icons'
 
 import App from './App.vue'
 import { router } from './router'
@@ -17,7 +17,7 @@ Vue.use(VueRouter)
 Vue.use(VueMaterial)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-library.add(faCode)
+library.add(faCode, faBars)
 
 new Vue({
   render: h => h(App),
