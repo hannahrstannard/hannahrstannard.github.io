@@ -1,0 +1,16 @@
+$primary: md-get-palette-color(blue, A200);
+$accent: md-get-palette-color(red, A200);
+$light-gray: md-get-palette-color(grey, 200);
+$gray: md-get-palette-color(grey, 500);
+$dark-gray: md-get-palette-color(grey, 800);
+
+$xsmall: 599px; // Less than
+$xsmall-size: 10em;
+$small: 959px;
+$small-size: 15em;
+$medium: 1279px;
+$medium-size: 20em;
+$large: 1919px;
+$large-size: 25em;
+$xlarge: 1920px; // Greater than
+$xlarge-size: 30em;
