@@ -1,0 +1,27 @@
+@import "./../../node_modules/vue-material/dist/theme/engine.scss";
+
+$primary: md-get-palette-color(blue, A200);
+$accent: md-get-palette-color(red, A200);
+$light-gray: md-get-palette-color(grey, 200);
+$gray: md-get-palette-color(grey, 500);
+$dark-gray: md-get-palette-color(grey, 800);
+
+@include md-register-theme("default", (
+  primary: $primary,
+  accent: $accent,
+  theme: light
+));
+
+@import "./../../node_modules/vue-material/dist/theme/all.scss";
+
+.md-theme--light-gray {
+  background-color: $light-gray !important;
+}
+
+.md-theme--gray {
+  background-color: $gray !important;
+}
+
+div.md-theme--dark-gray {
+  color: $dark-gray !important;
+}
