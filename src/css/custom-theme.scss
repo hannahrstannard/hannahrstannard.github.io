@@ -24,3 +24,19 @@ div.md-theme--dark-gray {
 body {
   background-color: white;
 }
+
+hr {
+  width: 12.5%;
+  border: 0;
+  height: 0.125em;
+  background: $dark-gray;
+  margin-top: 3.5em;
+  margin-bottom: 3.5em;
+}
+
+.hs--content {
+  margin: 0 auto;
+  margin-left: 15vw !important;
+  margin-right: 15vw !important;
+  margin-top: 10vh;
+}

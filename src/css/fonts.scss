@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat:400,700&display=swap');
 @import "./custom-theme.scss";
 
 body {
@@ -7,34 +7,4 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Libre Baskerville' !important;
-}
-
-@media only screen and (max-width: $xsmall) {
-  p {
-    font-size: 1em;
-  }
-}
-
-@media only screen and (min-width: $xsmall) and (max-width: $small) {
-  p {
-    font-size: 1.5em;
-  }
-}
-
-@media only screen and (min-width: $small) and (max-width: $medium) {
-  p {
-    font-size: 2em;
-  }
-}
-
-@media only screen and (min-width: $medium) and (max-width: $large) {
-  p {
-    font-size: 2.5em;
-  }
-}
-
-@media only screen and (min-width: $xlarge) {
-  p {
-    font-size: 3em;
-  }
 }

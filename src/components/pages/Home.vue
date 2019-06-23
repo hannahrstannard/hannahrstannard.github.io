@@ -1,5 +1,5 @@
 <template>
-  <md-content class="home__md-content">
+  <md-content class="hs--content">
     <p>
       This is my website.
     </p>
@@ -12,10 +12,5 @@ export default {
 </script>
 
 <style lang="scss">
-  .home__md-content {
-    margin: 0 auto;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 10vh;
-  }
+
 </style>
