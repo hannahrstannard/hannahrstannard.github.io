@@ -13,7 +13,6 @@ export default {
 
 <style lang="scss">
   .home__md-content {
-    background-color: black;
     margin: 0 auto;
     margin-left: 10vw;
     margin-right: 10vw;
