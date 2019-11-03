@@ -1,6 +1,6 @@
 
 module.exports = {
-  baseUrl: '/',
+  siteUrl: 'hannahstannard.com',
   css: {
     loaderOptions: {
       sass: {
