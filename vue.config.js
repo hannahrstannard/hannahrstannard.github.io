@@ -1,6 +1,5 @@
 
 module.exports = {
-  siteUrl: 'hannahstannard.com',
   css: {
     loaderOptions: {
       sass: {
