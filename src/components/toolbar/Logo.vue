@@ -29,6 +29,7 @@ export default {
   .home__logo--size {
     width: $xsmall-size;
     height: $xsmall-size;
+    top: $xsmall-size / 4;
   }
 }
 

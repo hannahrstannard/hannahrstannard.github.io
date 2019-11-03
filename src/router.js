@@ -1,6 +1,6 @@
 import VueRouter from 'vue-router'
 import Home from '@/components/pages/Home'
-import AbouteMe from '@/components/pages/about-me/AboutMe'
+import AbouteMe from '@/components/about-me/AboutMe'
 
 const routes = [
   {
